@@ -1,0 +1,180 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Lato", sans-serif; font-weight: 400;
+	margin: 0;
+	color: #666756;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: white;
+}
+
+h2 {
+	font-size: 30px;
+	color: #bcbbbb;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 14px;
+	color: white;
+}
+
+.grid {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.name {
+	text-align: right;
+	padding-right: 20px;
+}
+
+.logo img {
+	width: 63px;
+}
+
+.logo {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.header {
+	background-color: rgb(249, 144, 35);
+	margin-bottom: 5px;
+	border-bottom: 1px solid grey;
+}
+
+.big-image img {
+	width: 100%;
+	height: auto;
+}
+
+.featured {
+	justify-content: space-around;
+}
+
+.big-image {
+	margin-bottom: 25px;
+}
+
+.gallery {
+	margin-top: 10px;
+	justify-content: space-around;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.project {
+	min-width: 296px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 480px) {
+	h1 {
+	font-weight: 300;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #666756;
+	}
+
+	h4 {
+	color: #666756;
+	}
+
+	.logo img {
+		width: 125px;
+	}
+
+	.logo {
+		text-align: left;
+	}
+
+	.header {
+	background-color: white;
+	margin-bottom: 20px;
+	border-bottom: 4px solid grey;
+	}
+
+	.featured {
+	justify-content: space-between;
+	}
+}
+
+@media screen and (min-width: 532px) {
+	h1 {
+	font-size: 60px;
+	}
+
+}
+
+@media screen and (min-width: 1200px) {
+	.name {
+	padding-right: 0;
+	}
+}
